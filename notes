@@ -1,0 +1,5 @@
+Biblioteca estática lib<nome>.a
+linha de comando: ar rcs lib<nome>.a arquivo1.o arquivo2.o
+
+Bibliotecaq dinamica lib<nome>.so
+linha de comando: gcc -shared arquivo1.o arquivo2.o -o lib<nome>.so
